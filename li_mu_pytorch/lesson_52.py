@@ -93,5 +93,5 @@ if __name__=="__main__":
     print(list(vocab.token_to_idx.items())[0:10])#将dict_item转为list
     print(vocab.to_tokens([[5,4],[4]]))
     print(vocab.token_to_idx.items())
-    print(vocab.__getitem__([['by','g'],['wells']]))
+    print(vocab.__getitem__([['by','g'],['my']]))
     print(vocab.idx_to_token)
